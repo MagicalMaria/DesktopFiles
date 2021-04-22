@@ -1,0 +1,29 @@
+﻿@model IEnumerable<SimpleCoreWebApp.Models.Employee>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<h2>Partial View</h2>
+
+@foreach (Employee employee in Model)
+{
+    <div class="row col-md-4">
+
+        @if (employee.IsPermanent == true)
+        {
+            <b>
+                <span>@employee.ID</span>
+                <span>@employee.Name</span>
+                <span>@employee.Salary</span>
+                <span>@employee.IsPermanent</span>
+            </b>
+        }
+        else
+        {
+            <span>@employee.ID</span>
+            <span>@employee.Name</span>
+            <span>@employee.Salary</span>
+            <span>@employee.IsPermanent</span>
+        }
+    </div>
+}

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<SimpleCoreWebApp.Models.Employee>
+
+@{
+    ViewData["Title"] = "GetEmployeeList";
+}
+
+<h1>GetEmployeeList</h1>
+
+
+@Html.Partial("_EmployeeList",Model)
