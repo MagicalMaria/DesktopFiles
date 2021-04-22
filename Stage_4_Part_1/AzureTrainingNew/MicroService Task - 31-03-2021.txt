@@ -1,0 +1,49 @@
+Shopping Site
+Items Inventory
+Customer Management
+Billing
+
+MicorServices
+  Products
+     Add Product
+     Change Status
+    Inc/Dcr numbers
+    Change availability
+       Change Price
+     Get All Products
+     Get Product Details
+  Customer
+     Add Customer
+     Edit Customer
+     Provide Feedback
+  Purchase
+    Add To Cart
+    Get Cart Details
+    Delete From Cart
+    Confirm Order
+    Cancel Order
+    Get Order Confirmation
+
+ UserInteraction - Implement JWT
+    Login
+    Register
+    Admin
+      	Add Product
+       	Change Status
+    	Inc/Dcr numbers
+    	Change availability
+       	Change Price
+    Customer
+       Edit Customer
+       Provide Feedback
+        Add To Cart
+        Get Cart Details
+        Delete From Cart
+        Confirm Order
+        Cancel Order
+        Get Order Confirmation
+
+
+Create seperate projects for each microservice
+Discuss with team and decide on the structure of the models
+Define Interaction before you start implementation(Interaction between MS)

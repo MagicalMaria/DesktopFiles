@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customermanagementprojectdpl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: CustomerManagementProject
+  template:
+    metadata:
+      labels:
+        app: CustomerManagementProject
+    spec:
+      containers:
+      - name: dockersamplerepos
+        image: aksmariareg.azurecr.io/dockersamplerepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: customermanagementprojectservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: CustomerManagementProject

@@ -1,0 +1,6 @@
+Server=tcp:mariadatabasesql.database.windows.net,1433;Initial Catalog=MovieManagement;Persist Security Info=False;User ID=maria;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+
+
+
+Server=tcp:mariadatabasesql.database.windows.net,1433;Initial Catalog=MovieManagement;Persist Security Info=False;User ID=maria;Password=Antony$20111999;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
