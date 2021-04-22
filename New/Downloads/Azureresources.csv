@@ -1,5 +1,0 @@
-SEP=,
-NAME,TYPE,LOCATION,
-"mariamovieapi","Application Insights","South Central US"
-"mariamovieapi","App Service","South Central US"
-"mariamovieapi-plan","App Service plan","South Central US"
