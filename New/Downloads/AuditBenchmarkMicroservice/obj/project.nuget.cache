@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "k/jqowfFl7zX3mmKV9fBmXGhlSftz88MRFFq+aqZacJkNlU1nSHV6CRIlCwnjtFeyQa6d8G4KU858IsGV6RqHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\892565\\source\\repos\\AuditBenchmarkMicroservice\\AuditBenchmarkMicroservice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\892565\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}
