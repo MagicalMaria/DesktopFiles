@@ -1,0 +1,23 @@
+INFO  12:14:12 Application started. Press Ctrl+C to shut down.
+INFO  12:14:12 Application started. Press Ctrl+C to shut down.
+INFO  12:14:12 Hosting environment: Development
+INFO  12:14:12 Hosting environment: Development
+INFO  12:14:12 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:14:12 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:15:05 Application started. Press Ctrl+C to shut down.
+INFO  12:15:05 Application started. Press Ctrl+C to shut down.
+INFO  12:15:05 Hosting environment: Development
+INFO  12:15:05 Hosting environment: Development
+INFO  12:15:05 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:15:06 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:21:24 Application started. Press Ctrl+C to shut down.
+INFO  12:21:24 Application started. Press Ctrl+C to shut down.
+INFO  12:21:24 Hosting environment: Development
+INFO  12:21:24 Hosting environment: Development
+INFO  12:21:24 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:21:24 Content root path: C:\Users\892639\Training\Stage_4\MFPE\Project\AuditSeverityMicroservice
+INFO  12:23:32 Entered into the Post Method named as GetAuditResponse of ProjectExecutionStatusController
+INFO  12:23:34 Entered into the Post Method named as GetProjectExecutionStatusData of ProjectExecutionStatusService
+INFO  12:23:35 Entered into the Post Method named as GetAuditBenchmarks of ProjectExecutionStatusService
+INFO  12:23:47 Entered into the method named as GenerateAuditResponse of ProjectExecutionStatusService
+INFO  12:23:47 Entered into the Post Method named as AuditResponseDetails of ProjectExecutionStatusRepository

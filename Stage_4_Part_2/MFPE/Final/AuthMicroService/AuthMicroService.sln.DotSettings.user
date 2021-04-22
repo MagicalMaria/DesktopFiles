@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8d8f69e5_002Dd168_002D4d45_002Db90c_002D253360505a87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGenerateJWT" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Or&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::C3CCFC4B-4F75-4536-BC54-EBAA93D8D3A6::.NETCoreApp,Version=v3.1::TestAuthMicroService.Tests.TestGenerateJWT&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::C3CCFC4B-4F75-4536-BC54-EBAA93D8D3A6::.NETCoreApp,Version=v3.1::TestAuthMicroService.Tests.TestGenerateJWT2&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+    &lt;/Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C3CCFC4B-4F75-4536-BC54-EBAA93D8D3A6::.NETCoreApp,Version=v3.1::TestAuthMicroService.Tests.TestAuthenticateUser&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

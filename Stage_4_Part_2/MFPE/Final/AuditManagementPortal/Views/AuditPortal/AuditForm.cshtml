@@ -1,0 +1,58 @@
+﻿@model AuditManagementPortal.Models.AuditRequest
+
+@{
+    ViewData["Title"] = "Audit Form";
+}
+
+<h1>Audit Form</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Severity">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProjectName" class="control-label"></label>
+                <input asp-for="ProjectName" class="form-control" />
+                <span asp-validation-for="ProjectName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProjectManagerName" class="control-label"></label>
+                <input asp-for="ProjectManagerName" class="form-control" />
+                <span asp-validation-for="ProjectManagerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApplicationOwnerName" class="control-label"></label>
+                <input asp-for="ApplicationOwnerName" class="form-control" />
+                <span asp-validation-for="ApplicationOwnerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AuditDetails.Type" class="control-label"></label><br>
+                @Html.RadioButtonFor(model => model.AuditDetails.Type, "Internal")
+                Internal
+                <br>
+                @Html.RadioButtonFor(model => model.AuditDetails.Type, "SOX")
+                SOX<br>
+                <span asp-validation-for="@Model.AuditDetails.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AuditDetails.AuditDate" class="control-label"></label>
+                <input asp-for="@Model.AuditDetails.AuditDate" class="form-control" />
+                <span asp-validation-for="@Model.AuditDetails.AuditDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Home">Back to Home</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

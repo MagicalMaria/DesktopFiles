@@ -1,0 +1,11 @@
+INFO  06:32:03 Application started. Press Ctrl+C to shut down.
+INFO  06:32:03 Hosting environment: Development
+INFO  06:32:03 Content root path: C:\Users\Vijay\source\repos\AuditCheckList
+INFO  06:32:19 AuditChecklistController Http GET request calledAuditChecklistController
+INFO  06:32:19  Http GET request calledChecklistProvider
+INFO  06:32:19 Log from ChecklistRepo
+INFO  06:32:27 AuditChecklistController Http GET request calledAuditChecklistController
+INFO  06:32:27  Http GET request calledChecklistProvider
+INFO  06:32:27 Log from ChecklistRepo
+INFO  06:32:36 AuditChecklistController Http GET request calledAuditChecklistController
+INFO  06:32:47 AuditChecklistController Http GET request calledAuditChecklistController
